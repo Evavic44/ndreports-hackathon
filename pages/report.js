@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import styles from '../styles/Home.module.css'
 
 
 
@@ -40,6 +41,9 @@ export default function Report() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
+            <nav className={styles.navbar}>
+      <a href="/"><img src={"/images/logo.svg"} width="100px" /></a>
+      </nav>
 
             <main>
                 {/* Address, Media */}
@@ -64,9 +68,34 @@ export default function Report() {
                                         <option>Rivers</option>
                                         <option>Delta</option>
                                         <option>Abia</option>
+                                        <option>Cross River</option>
+                                        <option>Edo</option>
+                                        <option>Delta</option>
+                                        <option>Imo</option>
+                                        <option>Bayelsa</option>
+                                        <option>Akwa-Ibom</option>
+                                        <option>Ondo State</option>
                                     </Select>
                                 </FormControl>
+                                <FormControl>
+                                    <FormLabel htmlFor='state'>Environmental Challenge</FormLabel>
+                                    <Select id='state' placeholder='Select state'>
+                                        <option>Bunkery/Oil Spillage</option>
+                                        <option>Air Pollution</option>
+                                        <option>Soil Degradation</option>
+                                        <option>Militant and Avengeers Movement</option>
+                                        <option>Natural Resource Depletion</option>
+                                        <option>Generating Unstable Waste</option>
+                                        <option>Waste Pollution</option>
+                                    </Select>
+                                </FormControl>
+                                <FormControl>
+                                    <FormLabel htmlFor='name'>Other</FormLabel>
+                                    <Input id='name' type='name' placeholder='If other please specify' />
+                                </FormControl>
                                 {/* <CloudinaryUploadWidget /> */}
+
+                                <button className={styles.btn} textAlign="center" type="submit">Submit</button>
                             </form>
                         </Box>
                     </Box>

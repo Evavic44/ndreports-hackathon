@@ -126,6 +126,10 @@
   max-width: 300px;
 }
 
+form .btn {
+  margin: 1rem;
+}
+
 .card:hover,
 .card:focus,
 .card:active {

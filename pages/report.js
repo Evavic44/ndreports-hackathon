@@ -62,7 +62,7 @@ export default function Report() {
                                     <FormLabel htmlFor='email'>Email address</FormLabel>
                                     <Input id='email' type='email' placeholder='johndoe@example.com' />
                                 </FormControl>
-                                <FormControl>
+                                <FormControl mb={3}>
                                     <FormLabel htmlFor='state'>State</FormLabel>
                                     <Select id='state' placeholder='Select state'>
                                         <option>Rivers</option>
@@ -77,9 +77,9 @@ export default function Report() {
                                         <option>Ondo State</option>
                                     </Select>
                                 </FormControl>
-                                <FormControl>
+                                <FormControl mb={3}>
                                     <FormLabel htmlFor='state'>Environmental Challenge</FormLabel>
-                                    <Select id='state' placeholder='Select state'>
+                                    <Select id='state' placeholder='Select Challenge'>
                                         <option>Bunkery/Oil Spillage</option>
                                         <option>Air Pollution</option>
                                         <option>Soil Degradation</option>
@@ -89,7 +89,11 @@ export default function Report() {
                                         <option>Waste Pollution</option>
                                     </Select>
                                 </FormControl>
-                                <FormControl>
+                                <FormControl mb={3}>
+                                    <FormLabel htmlFor='name'>Media Upload</FormLabel>
+                                    <Input id='file' type='file' placeholder='Upload media file' />
+                                </FormControl>
+                                <FormControl mb={3}>
                                     <FormLabel htmlFor='name'>Other</FormLabel>
                                     <Input id='name' type='name' placeholder='If other please specify' />
                                 </FormControl>

@@ -11,44 +11,52 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <nav className={styles.navbar}>
+      <a href=""><img src={"/images/logo.svg"} width="100px" /></a>
+
+      <a href="/report" className={styles.btn}>Reports</a>
+      </nav>
+
       <main className={styles.main}>
+      
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        Report environmental challenges, make <span>Niger Delta</span> better
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+        The new government is proactive about having a healthy environment. Join Us!
         </p>
 
+        <h2 className={styles.text}>Report Steps</h2>
+
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/report" className={styles.card}>
+            <h2>STEP 1 &rarr;</h2>
+            <p>Click this link to go to the report page</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          <span href="https://nextjs.org/learn" className={styles.card}>
+            <h2>STEP 2 &rarr;</h2>
+            <p>Fill in your details so we can reach back to you. 😊</p>
+          </span>
 
-          <a
+          <span
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+            <h2>STEP 3 &rarr;</h2>
+            <p>Fill in the report document. Add images, videos of the environmental challenge ⚠️</p>
+          </span>
 
-          <a
+          <span
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>STEP 4 &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Submit your form and we'll look into it. Thanks 🚨.
             </p>
-          </a>
+          </span>
         </div>
       </main>
 
@@ -60,7 +68,7 @@ export default function Home() {
         >
           Powered by{' '}
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src="/index.png" alt="Vercel Logo" width={40} height={40} />
           </span>
         </a>
       </footer>

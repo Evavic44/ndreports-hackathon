@@ -12,6 +12,23 @@
   align-items: center;
 }
 
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.6rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: white;
+  background: #49A010;
+  border-radius: 5px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
 .footer {
   display: flex;
   flex: 1;
@@ -42,12 +59,30 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3.6rem;
+  font-weight: 700;
+  max-width: 700px;
 }
 
-.title,
+.title {
+  text-align: center;
+}
+
+.title span {
+  color: #49A010;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+}
+
 .description {
   text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .description {
@@ -71,6 +106,12 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
+}
+
+.grid h2 {
+  color: #49A010;
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 
 .card {

@@ -54,11 +54,11 @@ export default function Report() {
                         </Box>
                         <Box my={3} textAlign="left">
                             <form>
-                                <FormControl>
+                                <FormControl mb={3}>
                                     <FormLabel htmlFor='name'>Name</FormLabel>
                                     <Input id='name' type='name' placeholder='John Doe' />
                                 </FormControl>
-                                <FormControl>
+                                <FormControl mb={3}>
                                     <FormLabel htmlFor='email'>Email address</FormLabel>
                                     <Input id='email' type='email' placeholder='johndoe@example.com' />
                                 </FormControl>

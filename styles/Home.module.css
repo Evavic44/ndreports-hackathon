@@ -75,7 +75,7 @@
 .text {
   font-weight: 600;
   font-size: 1.5rem;
-  padding-bottom: 1rem;
+  padding: 10rem 1rem 1rem;
   text-transform: uppercase;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 4rem 0 2rem;
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -127,7 +127,8 @@
 }
 
 form .btn {
-  margin: 1rem;
+  margin: 1rem 0;
+  width: 100%;
 }
 
 .card:hover,

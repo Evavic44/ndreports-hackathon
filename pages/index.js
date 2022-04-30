@@ -14,7 +14,7 @@ export default function Home() {
       <nav className={styles.navbar}>
       <a href=""><img src={"/images/logo.svg"} width="100px" /></a>
 
-      <a href="/report" className={styles.btn}>Reports</a>
+      <a href="/report" className={styles.btn}>Report</a>
       </nav>
 
       <main className={styles.main}>
@@ -26,6 +26,8 @@ export default function Home() {
         <p className={styles.description}>
         The new government is proactive about having a healthy environment. Join Us!
         </p>
+
+        <a href="/report" className={styles.btn}>Report a challenge</a>
 
         <h2 className={styles.text}>Report Steps</h2>
 
